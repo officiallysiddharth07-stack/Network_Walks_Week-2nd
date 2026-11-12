@@ -28,7 +28,7 @@ The table below lists each tool used in this report and its purpose.
 | Tool | Purpose |
 |---|---|
 | Kali Linux & Windows | Operating systems used for recon activities             |
-| WHOIS                | Finds domain registration details (owner, dates, name servers).   |
+| whois                | Finds domain registration details (owner, dates, name servers).   |
 | whatweb              | Fingerprints web technologies (server, CMS, plugins, IP).         |
 | nslookup             | Resolves the domain name to its IP address using DNS.             |
 | curl -I              | Reads the HTTP response headers of the website.                   |
@@ -36,3 +36,31 @@ The table below lists each tool used in this report and its purpose.
 | dnsrecon             | Enumerates all DNS records (NS, MX, SPF, TXT, SRV).               |
 | Zenmap (Nmap GUI)    | Scans the local subnet to find live hosts, IPs and MAC addresses. |
 | Windows CMD          | Local IP and MAC address identification                          |
+
+# 4. Activities Performed
+## 4.1 Footprinting & Reconnaissance
+
+Using six Kali Linux tools—WHOIS, WhatWeb, Nslookup, Curl, Wafw00f, and DNSRecon—I conducted reconnaissance against the networkwalks.com domain. Different kinds of information on the target were gathered using each instrument.
+
+I started by using **whois** to find the domain's name servers and collect publicly accessible domain registration information. Information regarding domain registration and hosting infrastructure was obtained from the results.
+
+I then used **whatweb** to determine which technologies the website was using. WordPress 7.0.4 and WP Download Manager 3.3.58 were found in the results, along with further data that the website disclosed.
+
+I was able to resolve the domain name to its IP address using **Nslookup**. 192.232.216.135 was found in the given result.
+
+I examined the HTTP response headers using Curl and the -I option. This revealed the WordPress REST API endpoint /wp-json/ and offered more details about the web application.
+
+I then used **wafw00f** to check if the website was protected by a Web Application Firewall. ModSecurity (SpiderLabs) was found in the outcome.
+
+Lastly, I enumerated DNS records using **dnsrecon**. Name servers, mail servers, SPF/TXT records, service records, and DNS software information were all included in the results.
+
+## 4.2 Network Scanning with Zenmap
+
+For the second activity, I used Zenmap to perform network discovery on my local network. The practical required me to identify my local IP address and subnet, discover live hosts, identify their IP and MAC addresses, and generate a network topology.
+I first used the Windows ipconfig command to identify my local IP address and LAN subnet. I then entered the subnet into Zenmap and selected Ping Scan to identify active hosts.
+The example results provided in the practical identified one live host:
+•	192.168.56.1
+The example result didn’t include any MAC addresses. But, I scanned the mac address using ipconfig/all in my Windows cmd.
+Also, I opened the Topology section in Zenmap, enabled the legend and saved the network topology in PDF format as required by the practical task.
+
+
