@@ -141,9 +141,11 @@ Lastly, I discovered that scanning and reconnaissance must always be done within
 
 ![wafw00f output](wafw00f.png)
 
-![dnsrecon output](screenshots/7_zenmap.png)
+![whatweb output](dnsreconerrorversion.png)
 
-![Zenmap scan and topology](screenshots/8_zenmap2.png)
+![dnsrecon output](pingscan.png)
+
+![Zenmap scan and topology](topology.png)
 
 -End-
 
