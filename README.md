@@ -129,11 +129,12 @@ Lastly, I discovered that scanning and reconnaissance must always be done within
 
 # 8. Evidences
 
-*Screenshots collected as evidence during the activities (stored in the `screenshots/` folder):*
+*Few screenshots are here:
+Others you could find in this repo*
 
 ![whois output](whois.png)
 
-![whatweb output](whatweb.png)
+
 
 ![nslookup output](nslookup.png)
 
@@ -141,11 +142,8 @@ Lastly, I discovered that scanning and reconnaissance must always be done within
 
 ![wafw00f output](wafw00f.png)
 
-![whatweb output](dnsreconerrorversion.png)
 
-![dnsrecon output](pingscan.png)
 
-![Zenmap scan and topology](topology.png)
 
 -End-
 
