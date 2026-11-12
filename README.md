@@ -122,8 +122,9 @@ Based on the observations from these activities, I recommend the following secur
 I finished hands-on exercises in network scanning, footprinting, and reconnaissance during the second week of my internship in cybersecurity and ethical hacking.<br>
 I gathered data on the target domain in the footprinting exercise using six Kali Linux tools.<br> I discovered that Wafw00f can detect a WAF, DNSRecon can offer more DNS information, WhatWeb can identify web technologies, Nslookup can resolve domain names, Curl can examine HTTP headers, and WHOIS can provide domain information.<br>
 I used Zenmap to find active hosts and determine my local network settings for the network scanning exercise. In addition, I made a network architecture and gathered IP and MAC address data.<br>
-I learned from the exercises how crucial information collection is to cybersecurity. By closely examining publicly available data and network replies, a security expert can learn a great deal about an environment even before attempting to exploit a system.<br>
+I learned from the exercises how crucial information collection is to cybersecurity i.e. by closely examining publicly available data and network replies, a security expert can learn a great deal about an environment even before attempting to exploit a system.<br>
 I also discovered the importance of clearly documenting technical discoveries. An effective cybersecurity report should include what was done, what was found, the significance of the observation, the potential danger it poses, and how to mitigate that risk.<br>
 Lastly, I discovered that scanning and reconnaissance must always be done within a permitted scope. As part of the designated instructional cybersecurity lab, these tasks were finished.
+
 
 
