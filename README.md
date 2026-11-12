@@ -127,4 +127,25 @@ I also discovered the importance of clearly documenting technical discoveries. A
 Lastly, I discovered that scanning and reconnaissance must always be done within a permitted scope. As part of the designated instructional cybersecurity lab, these tasks were finished.
 
 
+# 8. Evidences
+
+*Screenshots collected as evidence during the activities (stored in the `screenshots/` folder):*
+
+![whois output](screenshots/1_whois.png)
+
+![whatweb output](screenshots/2_whatweb.png)
+
+![nslookup output](screenshots/3_nslookup.png)
+
+![curl output](screenshots/4_curl.png)
+
+![wafw00f output](screenshots/5_wafw00f.png)
+
+![dnsrecon output](screenshots/7_zenmap.png)
+
+![Zenmap scan and topology](screenshots/8_zenmap2.png)
+
+-End-
+
+
 
