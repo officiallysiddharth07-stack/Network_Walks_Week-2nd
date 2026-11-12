@@ -129,8 +129,8 @@ Lastly, I discovered that scanning and reconnaissance must always be done within
 
 # 8. Evidences
 
-*Few screenshots are here:
-Others you could find in this repo*
+*Few screenshots are here. 
+<br>(Others you could find in this repo)*
 
 ![whois output](whois.png)
 
