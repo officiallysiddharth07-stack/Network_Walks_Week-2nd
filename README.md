@@ -27,12 +27,12 @@ It is the Week 2 part of my ongoing internship program at Networkwalks.
 The table below lists each tool used in this report and its purpose.
 | Tool | Purpose |
 |---|---|
-| Kali Linux & Windows | Operating systems used for reconnaissance activities             |
-| WHOIS                | Find domain registration details (owner, dates, name servers).   |
-| whatweb              | Fingerprint web technologies (server, CMS, plugins, IP).         |
-| nslookup             | Resolve the domain name to its IP address using DNS.             |
-| curl -I              | Read the HTTP response headers of the website.                   |
-| wafw00f              | Detect whether a Web Application Firewall protects the site.     |
-| dnsrecon             | Enumerate all DNS records (NS, MX, SPF, TXT, SRV).               |
-| Zenmap (Nmap GUI)    | Scan the local subnet to find live hosts, IPs and MAC addresses. |
+| Kali Linux & Windows | Operating systems used for recon activities             |
+| WHOIS                | Finds domain registration details (owner, dates, name servers).   |
+| whatweb              | Fingerprints web technologies (server, CMS, plugins, IP).         |
+| nslookup             | Resolves the domain name to its IP address using DNS.             |
+| curl -I              | Reads the HTTP response headers of the website.                   |
+| wafw00f              | Detects whether a Web Application Firewall protects the site.     |
+| dnsrecon             | Enumerates all DNS records (NS, MX, SPF, TXT, SRV).               |
+| Zenmap (Nmap GUI)    | Scans the local subnet to find live hosts, IPs and MAC addresses. |
 | Windows CMD          | Local IP and MAC address identification                          |
