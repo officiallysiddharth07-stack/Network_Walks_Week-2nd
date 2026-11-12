@@ -56,10 +56,10 @@ Lastly, I enumerated DNS records using **dnsrecon**. Name servers, mail servers,
 
 ## 4.2 Network Scanning with Zenmap
 
-For the second activity, I used Zenmap to perform network discovery on my local network. The practical required me to identify my local IP address and subnet, discover live hosts, identify their IP and MAC addresses, and generate a network topology.
-I first used the Windows ipconfig command to identify my local IP address and LAN subnet. I then entered the subnet into Zenmap and selected Ping Scan to identify active hosts.
-The example results provided in the practical identified one live host:
-•	192.168.56.1
+For the second activity, I used Zenmap to perform network discovery on my local network. The practical required me to identify my local IP address and subnet, discover live hosts, identify their IP and MAC addresses, and generate a network topology.<br>
+I first used the Windows ipconfig command to identify my local IP address and LAN subnet. I then entered the subnet into Zenmap and selected Ping Scan to identify active hosts.<br>
+The example results provided in the practical identified one live host:<br>
+•	192.168.56.1<br>
 The example result didn’t include any MAC addresses. But, I scanned the mac address using ipconfig/all in my Windows cmd.
 Also, I opened the Topology section in Zenmap, enabled the legend and saved the network topology in PDF format as required by the practical task.
 
